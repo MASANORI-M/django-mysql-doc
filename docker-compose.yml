@@ -27,7 +27,7 @@ services:
       MYSQL_PASSWORD: 'djangopass'
       MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
     privileged: true
-
+  # 一応追加
   pma:
     image: phpmyadmin/phpmyadmin
     container_name: pma
